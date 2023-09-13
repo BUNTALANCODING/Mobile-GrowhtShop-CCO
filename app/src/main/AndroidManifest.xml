@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GrowthShop"
+        tools:targetApi="31">
+        <activity
+            android:name=".GTS_Halaman_Konfirmasi"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Halaman_KategoriFarm"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Halaman_KategoriItem"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Riwayat_Pembelian"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Halaman_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Pesanan_Code"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Checkout_Barang"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Halaman_KategoriLock"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Halaman_ACC"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Halaman_Cart"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Halaman_Utama"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Register_User"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Login_User"
+            android:exported="false" />
+        <activity
+            android:name=".GTS_Halaman_Awal"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".GTS_Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

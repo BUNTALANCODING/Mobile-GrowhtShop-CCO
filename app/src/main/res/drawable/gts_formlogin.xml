@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Warna latar belakang tombol saat dalam keadaan normal -->
+            <stroke android:color="@color/other" android:width="2dp" /> <!-- Warna dan lebar stroke (garis tepi) saat tombol dalam keadaan normal -->
+            <corners android:radius="10dp" /> <!-- Jari-jari sudut tombol -->
+        </shape>
+    </item>
+</selector>
